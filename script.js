@@ -16,7 +16,7 @@ document.getElementById("registration-form").addEventListener("submit", async (e
         });
 
         if (response.ok) {
-            messageElement.innerText = "Thank you for registering!<br> እናመሰግናለን!";
+            messageElement.innerText = "Thank you for registering!\n እናመሰግናለን!";
             form.reset(); // Clear the form
         } else {
             messageElement.innerText = "Oops! Something went wrong. Please try again.";
