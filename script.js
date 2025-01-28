@@ -4,6 +4,7 @@ document.getElementById("registration-form").addEventListener("submit", async (e
 
     const form = e.target;
     const formData = new FormData(form);
+    const messageElement = document.getElementById("message");
 
     try {
         const response = await fetch(form.action, {
@@ -15,13 +16,13 @@ document.getElementById("registration-form").addEventListener("submit", async (e
         });
 
         if (response.ok) {
-            document.getElementById("message").innerText = "Thank you for registering!";
+            messageElement.innerText = "Thank you for registering!";
             form.reset(); // Clear the form
         } else {
-            document.getElementById("message").innerText = "Oops! Something went wrong. Please try again.";
+            messageElement.innerText = "Oops! Something went wrong. Please try again.";
         }
     } catch (error) {
-        document.getElementById("message").innerText = "Oops! Something went wrong. Please try again.";
+        messageElement.innerText = "Oops! Something went wrong. Please try again.";
         console.error("Formspree Error:", error);
     }
 });
