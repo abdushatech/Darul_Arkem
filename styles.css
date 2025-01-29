@@ -22,32 +22,32 @@ body {
 }
 
 .logo {
-    width: 120px; /* Adjust size as needed */
+    width: auto; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Makes the logo edges slightly rounded */
+    margin-bottom: auto;
+    border-radius: auto; /* Makes the logo edges slightly rounded */
 }
 
 
 .mosque {
-    width: 120px; /* Adjust size as needed */
+    width: auto; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Makes the logo edges slightly rounded */
+    margin-bottom: auto;
+    border-radius: auto; /* Makes the logo edges slightly rounded */
 }
 
 .prayer {
-    width: 120px; /* Adjust size as needed */
+    width: auto; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Makes the logo edges slightly rounded */
+    margin-bottom: auto;
+    border-radius: auto; /* Makes the logo edges slightly rounded */
 }
 
 .quran {
-    width: 120px; /* Adjust size as needed */
+    width: auto; /* Adjust size as needed */
     height: auto;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Makes the logo edges slightly rounded */
+    margin-bottom: auto;
+    border-radius: auto; /* Makes the logo edges slightly rounded */
 }
 
 
