@@ -14,19 +14,25 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('https://images.unsplash.com/photo-1529068755536-a5ade0dcb4fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080');
+  /* Make sure you have 'quran-background.jpg' in the same folder or correct path */
+  background-image: url('quran-background.jpg');
   background-size: cover;
   background-position: center;
   z-index: -1;
-  opacity: 0.8;
+  opacity: 0.8; /* Adjust opacity for better readability */
+}
+
+header {
+  padding: 20px;
+  background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
 }
 
 section {
   margin: 20px;
   padding: 20px;
-  background: linear-gradient(135deg, #ffffff, #ece9e6); /* Light gradient background */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   color: #2c3e50; /* Dark text for readability */
 }
 
@@ -68,7 +74,7 @@ button:hover {
 }
 
 footer {
-  background: linear-gradient(135deg, #2c3e50, #34495e); /* Gradient background */
+  background-color: rgba(44, 62, 80, 0.8); /* Semi-transparent background */
   color: white;
   padding: 10px;
   position: fixed;
