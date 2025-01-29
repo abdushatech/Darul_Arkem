@@ -21,43 +21,6 @@ body {
   opacity: 0.8;
 }
 
-.logo {
-    width: auto; /* Adjust size as needed */
-    height: auto;
-    margin-bottom: auto;
-    border-radius: auto; /* Makes the logo edges slightly rounded */
-}
-
-
-.mosque {
-    width: auto; /* Adjust size as needed */
-    height: auto;
-    margin-bottom: auto;
-    border-radius: auto; /* Makes the logo edges slightly rounded */
-}
-
-.prayer {
-    width: auto; /* Adjust size as needed */
-    height: auto;
-    margin-bottom: auto;
-    border-radius: auto; /* Makes the logo edges slightly rounded */
-}
-
-.quran {
-    width: auto; /* Adjust size as needed */
-    height: auto;
-    margin-bottom: auto;
-    border-radius: auto; /* Makes the logo edges slightly rounded */
-}
-
-
-
-header {
-  padding: 20px;
-  background: linear-gradient(135deg, #2c3e50, #3498db); /* Gradient background */
-  color: white;
-}
-
 section {
   margin: 20px;
   padding: 20px;
