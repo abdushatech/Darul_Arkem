@@ -21,6 +21,16 @@ body {
   opacity: 0.8;
 }
 
+.logo {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Makes the logo edges slightly rounded */
+}
+
+
+
+
 header {
   padding: 20px;
   background: linear-gradient(135deg, #2c3e50, #3498db); /* Gradient background */
