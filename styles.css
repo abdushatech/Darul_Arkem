@@ -107,3 +107,24 @@ footer {
     height: auto;
   }
 }
+#announcements {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#announcement-box {
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
