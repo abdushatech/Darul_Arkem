@@ -116,7 +116,7 @@ if ("geolocation" in navigator) {
 }
 document.addEventListener("DOMContentLoaded", function () {
     let announcements = [
-        "📢 Welcome to our online Islamic school!",
+        "📢 Welcome to Darul_Arkem!",
         "🌙 Ramadan classes start next Monday!",
         "📖 New Quran recitation videos are available!",
         "🕌 Live lecture today at 8 PM!",
