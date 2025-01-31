@@ -131,6 +131,6 @@ document.addEventListener("DOMContentLoaded", function () {
         index = (index + 1) % announcements.length; // Cycle through announcements
     }
 
-    setInterval(updateAnnouncement, 10000); // Change announcement every 5 seconds
+    setInterval(updateAnnouncement, 5000); // Change announcement every 5 seconds
 });
 
