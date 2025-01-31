@@ -114,16 +114,3 @@ if ("geolocation" in navigator) {
 } else {
   prayerTimesText.innerText = "Geolocation is not supported by this browser.";
 }
-document.addEventListener("DOMContentLoaded", function () {
-    let slides = document.querySelectorAll(".slide");
-    let currentIndex = 0;
-
-    function showNextSlide() {
-        slides[currentIndex].style.display = "none"; // Hide current image
-        currentIndex = (currentIndex + 1) % slides.length; // Move to next
-        slides[currentIndex].style.display = "block"; // Show next image
-    }
-
-    setInterval(showNextSlide, 3000); // Change image every 3 seconds
-});
-
