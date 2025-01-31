@@ -114,3 +114,23 @@ if ("geolocation" in navigator) {
 } else {
   prayerTimesText.innerText = "Geolocation is not supported by this browser.";
 }
+document.addEventListener("DOMContentLoaded", function () {
+    let announcements = [
+        "📢 Welcome to our online Islamic school!",
+        "🌙 Ramadan classes start next Monday!",
+        "📖 New Quran recitation videos are available!",
+        "🕌 Live lecture today at 8 PM!",
+        "📅 Exam results will be posted next Friday."
+    ];
+
+    let announcementText = document.getElementById("announcement-text");
+    let index = 0;
+
+    function updateAnnouncement() {
+        announcementText.textContent = announcements[index];
+        index = (index + 1) % announcements.length; // Cycle through announcements
+    }
+
+    setInterval(updateAnnouncement, 5000); // Change announcement every 5 seconds
+});
+
